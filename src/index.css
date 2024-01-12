@@ -2,6 +2,16 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+body{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+
 @layer utilities {
   .text-shadow {
     text-shadow: 2px 2px 2px #1128015b;

@@ -11,11 +11,10 @@ const App = () => {
       easing: "ease-in-sine",
       delay: 100,
     });
-    AOS.refresh();
   }, []);
 
   return (
-    <div>
+    <div className="overflow-x-hidden min-h-screen">
       <Hero />
     </div>
   );

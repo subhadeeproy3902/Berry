@@ -8,7 +8,7 @@ const Hero = () => {
   const [sidebar, setSidebar] = React.useState(false);
   return (
     <main className="md:px-12 md:py-6 bg-primaryDark">
-      <section className="relative min-h-[650px] bg-gradient-to-r from-primary to-secondary w-full md:rounded-xl shadow-md">
+      <section className="relative min-h-screen bg-gradient-to-r from-primary to-secondary w-full md:rounded-xl shadow-md">
         <div className="container">
           <Navbar sidebar={sidebar} setSidebar={setSidebar} />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center min-h-[694px]">
