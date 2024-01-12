@@ -5,6 +5,7 @@ import { FaX } from "react-icons/fa6";
 const Navbar = ({ sidebar, setSidebar }) => {
 
   const [isOpen, setIsOpen] = React.useState(false);
+  
 
   return (
     <div className="absolute top-0 left-0 w-full py-2 text-white z-20">

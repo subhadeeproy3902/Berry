@@ -4,6 +4,7 @@ import Navbar from "./Navbar.jsx";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 
+
 const Hero = () => {
   const [sidebar, setSidebar] = React.useState(false);
   return (
